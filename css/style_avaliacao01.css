@@ -1,4 +1,4 @@
-#geral{
+#gerall{
     width: 500px;
     min-height: 600px;
     padding: 10px;
@@ -10,14 +10,14 @@ h3{
     text-align: center;
     text-transform: uppercase;
     letter-spacing: 5px;
-    color: rgb(26, 211, 97);
+    color: rgb(15, 49, 28);
 }
 
-#div-form-pessoa, #div-form-pessoas{
+#div-form, #div-listas{
     width: 100%;
     padding: 5px;
     margin: 20px 0px;
-    background-color: rgb(109, 248, 248);
+    background-color: rgb(109, 248, 109);
     color: rgb(0, 0, 0);
 }
 
@@ -41,8 +41,3 @@ button{
     height: 40px;
 }
 
-#div-lista-pessoas{
-    width: 100%;
-    min-height: 450px;
-    background-color: rgb(119, 243, 252);
-}
