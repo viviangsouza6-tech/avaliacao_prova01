@@ -1,0 +1,48 @@
+#geral{
+    width: 500px;
+    min-height: 600px;
+    padding: 10px;
+    margin: 20px auto;
+    font-family: Verdana;
+}
+
+h3{
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    color: rgb(26, 211, 97);
+}
+
+#div-form-pessoa, #div-form-pessoas{
+    width: 100%;
+    padding: 5px;
+    margin: 20px 0px;
+    background-color: rgb(109, 248, 248);
+    color: rgb(0, 0, 0);
+}
+
+#form-pessoa{
+    padding: 15px;
+    font-size: 1.2em;
+}
+
+label, input{
+   display: block;
+   margin: 15px 0px;
+}
+
+input{
+    width: 460px;
+    height: 30px;
+}
+
+button{
+    width: 230px;
+    height: 40px;
+}
+
+#div-lista-pessoas{
+    width: 100%;
+    min-height: 450px;
+    background-color: rgb(119, 243, 252);
+}

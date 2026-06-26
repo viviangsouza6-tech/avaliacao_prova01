@@ -1,11 +1,37 @@
 <!DOCTYPE html>
-<html lang="pt-bt">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Premio coleta de lixo</title>
+
+    <script src="js/scripts_empresa.js" defer></script>
+    <link rel="stylesheet" href="css/style_avaliacao01.css">
 </head>
 <body>
+    <h1>Premio da Coleta</h1>
     
+    <div id="div-form-empresas">
+       <form id="form-empresas">
+
+        <h3>Cadastro da sua empresa</h3>
+        
+        <label for="descricao">Descrição</label>
+        <input type="text" name="descricao" id="descricao">
+
+        <label for="quantidade">Quantidade</label>
+        <input type="number" name="quantidade" id="quantidade">
+
+        <button type="submit" id="btn-add">Enviar</button>
+        <button type="reset">Limpar</button>
+         
+    
+    <div id="div-lista">
+        <form id="form-lista">
+            <h3>Lista empresas cadastradas</h3>
+            <hr>
+        </form>
+    </div>
+
 </body>
 </html>
