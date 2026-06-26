@@ -33,7 +33,7 @@
      }else if(objEmpresas.quantidade <= 15000){
          valorCalculado = valorTotal * 0.10
      }else if(objEmpresas.quantidade <= 25000){
-         valorCalculado = valorTotal * 0.15
+         valorCalculado = valorTotal * 0.15 
      }else{
          valorCalculado = valorTotal * 0.20
      }
